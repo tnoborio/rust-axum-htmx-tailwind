@@ -14,10 +14,13 @@ npx tailwindcss -i ./ui/assets/tailwind.css -o ./dist/output.css --watch
 ```
 
 ## For Hot Reloading
-1. Install cargo watch [watchtower](https://github.com/watchexec/cargo-watch)
+1. Install [bacon](https://github.com/Canop/bacon)
+```
+cargo install --locked bacon
+```
 2. Run
 ```
-cargo watch -x run
+bacon run
 ```
 
 ## Templating with Tera
